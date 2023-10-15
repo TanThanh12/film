@@ -1,0 +1,31 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.header {
+    display: flex;
+    width: 60%;
+    margin: 20px auto;
+}
+
+.header .logo .home {
+    background-color: yellow;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu .link {
+    margin-left: 15px;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}

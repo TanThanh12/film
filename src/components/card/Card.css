@@ -1,0 +1,29 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+img{
+    width: 100%;
+}
+.thumb{
+    margin: 20px;
+    position: relative;
+    border-radius: 10px;
+    transition: linear 0.5s;
+}
+.thumb .vote{
+    margin-left: 10px;
+    color: white;
+}
+.thumb .content{
+    position: absolute;
+    top:40%;
+    color: white;
+    opacity: 0;
+    transition: 1s;
+}
+.thumb .content:hover{
+    opacity: 1;
+}
+.thumb:hover{
+    transform: scale(110%);
+}
