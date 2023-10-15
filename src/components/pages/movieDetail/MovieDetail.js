@@ -38,8 +38,11 @@ export default function MovieDetail() {
                             </>
                         ))
                     : ""}
-                    
                     </div>
+                </div>
+                <div className='synopsis'>
+                    <div className='synopsisText'>Synopsis</div>
+                    <div>{movie?movie.overview:""}</div>
                 </div>
             </div>
         </div>
